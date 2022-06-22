@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "npm-run-all -p -r server cypress:open",
+    "server": "rails s",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "cypress": "^10.2.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
